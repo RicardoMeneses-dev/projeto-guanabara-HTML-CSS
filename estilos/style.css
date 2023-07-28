@@ -11,18 +11,19 @@ html, body {
 }
 body {
     background: url(../pacote/imagens/fundo-madeira.jpg) no-repeat top center;
+    background-size: cover;
 }
 main {
     position: relative;
     height: 100vh;
-    position: relative;
 }
 section#telefone {
     position: absolute;
-    height: 100vh;
-    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 
-    height: 500px;
+    height: 627px;
     width: 310px;
     background-color: gray;
     background: url("../pacote/imagens/frame-iphone.png") no-repeat;
